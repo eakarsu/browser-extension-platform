@@ -1,0 +1,30 @@
+{
+  "id": "browser-extension-platform",
+  "title": "Browser Extension Platform App",
+  "industry": "AI/ML Platforms & Dev Tools",
+  "industryId": "ai-ml-platforms-dev-tools",
+  "specialization": "Browser Extension Platform",
+  "sourcePlatformGroup": "developer-productivity-platform",
+  "sources": [
+    "AIBrowserExtensionPlatform",
+    "AINetworkascodeplatform",
+    "AIProjectManager",
+    "AITestGenerationPlatform"
+  ],
+  "featureCount": 237,
+  "candidateFeatureCount": 318,
+  "eliminatedSimilarFeatures": 81,
+  "evidenceCount": 554,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 16,
+    "seededRows": 273
+  },
+  "visibleFeatureCount": 23,
+  "featureVisibilityMode": "seeded-or-ai"
+}
