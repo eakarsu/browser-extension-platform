@@ -11,12 +11,12 @@
     "AIProjectManager",
     "AITestGenerationPlatform"
   ],
-  "featureCount": 244,
-  "candidateFeatureCount": 327,
-  "eliminatedSimilarFeatures": 83,
-  "evidenceCount": 672,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 251,
+  "candidateFeatureCount": 333,
+  "eliminatedSimilarFeatures": 82,
+  "evidenceCount": 667,
+  "aiPageCount": 21,
+  "sourceAIPageCount": 21,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 177,
-  "featureVisibilityMode": "source-backed-fallback"
+  "visibleFeatureCount": 21,
+  "featureVisibilityMode": "seeded-or-ai"
 }

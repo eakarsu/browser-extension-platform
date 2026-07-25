@@ -211,6 +211,7 @@
     "canonicalKey": "ai automated provisioning",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -224,6 +225,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIAutomatedProvisioning.jsx:1",
+        "route": "/ai-automated-provisioning",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -252,6 +260,7 @@
     "canonicalKey": "ai capacity forecast",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -265,6 +274,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AICapacityForecast.jsx:1",
+        "route": "/ai-capacity-forecast",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -293,6 +309,7 @@
     "canonicalKey": "ai compliance report",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -306,6 +323,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIComplianceReport.jsx:1",
+        "route": "/ai-compliance-report",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -334,6 +358,7 @@
     "canonicalKey": "ai cost optimizer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -347,6 +372,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AICostOptimizer.jsx:1",
+        "route": "/ai-cost-optimizer",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -520,6 +552,7 @@
     "canonicalKey": "ai federation multi operator",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -533,6 +566,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIMultiOperatorFederation.jsx:1",
+        "route": "/ai-multi-operator-federation",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -561,6 +601,7 @@
     "canonicalKey": "ai network optimizer slice",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -574,6 +615,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AINetworkSliceOptimizer.jsx:1",
+        "route": "/ai-network-slice-optimizer",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AINetworkascodeplatform",
@@ -739,6 +787,32 @@
     ]
   },
   {
+    "name": "AI Security Threat Detector",
+    "canonicalKey": "ai detector security threat",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-security-threat"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AISecurityThreat.jsx:1",
+        "route": "/ai-security-threat",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
     "name": "AI Traffic",
     "canonicalKey": "ai traffic",
     "aliases": [],
@@ -826,6 +900,84 @@
         "sourceProject": "AINetworkascodeplatform",
         "path": "backend/routes/ai.js:368",
         "route": "/analyses",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
+    "name": "Analyses Type Anomaly Detector Page Limit 10",
+    "canonicalKey": "10 analyse anomaly detector limit type",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-anomaly?tool=analyses-type-anomaly-detector-page-limit-10"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIAnomalyDetector.jsx:1",
+        "route": "/ai-anomaly?tool=analyses-type-anomaly-detector-page-limit-10",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
+    "name": "Analyses Type Network Optimizer Page Limit 10",
+    "canonicalKey": "10 analyse limit network optimizer type",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-optimizer?tool=analyses-type-network-optimizer-page-limit-10"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIOptimizer.jsx:1",
+        "route": "/ai-optimizer?tool=analyses-type-network-optimizer-page-limit-10",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
+    "name": "Analyses Type Traffic Analyzer Page Limit 10",
+    "canonicalKey": "10 analyse analyzer limit traffic type",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-traffic?tool=analyses-type-traffic-analyzer-page-limit-10"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AITrafficAnalyzer.jsx:1",
+        "route": "/ai-traffic?tool=analyses-type-traffic-analyzer-page-limit-10",
         "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
       }
     ]
@@ -947,10 +1099,12 @@
     "canonicalKey": "anomaly detector",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "navigation"
     ],
     "routes": [
+      "/ai-anomaly?tool=anomaly-detector",
       "/anomaly-detector"
     ],
     "sourceProjects": [
@@ -960,6 +1114,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIAnomalyDetector.jsx:1",
+        "route": "/ai-anomaly?tool=anomaly-detector",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "api",
         "sourceProject": "AINetworkascodeplatform",
@@ -1054,6 +1215,32 @@
         "sourceProject": "AIBrowserExtensionPlatform",
         "path": "backend/routes/user.js:83",
         "route": "/api-key",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
+    "name": "Apply Optimization",
+    "canonicalKey": "apply optimization",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-optimizer?tool=apply-optimization"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIOptimizer.jsx:1",
+        "route": "/ai-optimizer?tool=apply-optimization",
         "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
       }
     ]
@@ -3829,6 +4016,63 @@
     ]
   },
   {
+    "name": "Documents",
+    "canonicalKey": "document",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/Documents",
+      "/documents"
+    ],
+    "sourceProjects": [
+      "AIProjectManager"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Documents.jsx:1",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/components/Navbar.jsx:37",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/App.jsx:108",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Dashboard.jsx:13",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Documents.jsx",
+        "route": "/Documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      }
+    ]
+  },
+  {
     "name": "Edge Locations",
     "canonicalKey": "edge location",
     "aliases": [],
@@ -6238,10 +6482,12 @@
     "canonicalKey": "network optimizer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "navigation"
     ],
     "routes": [
+      "/ai-optimizer?tool=network-optimizer",
       "/network-optimizer"
     ],
     "sourceProjects": [
@@ -6251,6 +6497,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIOptimizer.jsx:1",
+        "route": "/ai-optimizer?tool=network-optimizer",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "api",
         "sourceProject": "AINetworkascodeplatform",
@@ -7167,37 +7420,30 @@
   {
     "name": "Projects",
     "canonicalKey": "project",
-    "aliases": [
-      "Projects Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "api",
-      "model",
+      "ai-page",
       "navigation",
       "page"
     ],
     "routes": [
       "/Projects",
-      "/ProjectsPage",
-      "/api/v1/projects",
-      "/clouds/gcp/projects",
-      "/models/projects",
       "/projects"
     ],
     "sourceProjects": [
-      "AIAgentObservabilityPlus",
-      "AIProjectManager",
-      "AIobservability",
-      "AIondistributedcloud",
-      "saas-challengers"
+      "AIProjectManager"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/agent-observability-plus",
-      "ai-ml-platforms-dev-tools/assistant",
-      "ai-ml-platforms-dev-tools/browser-extension-platform",
-      "ai-ml-platforms-dev-tools/luran-ai"
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Projects.jsx:1",
+        "route": "/projects",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIProjectManager",
@@ -7225,83 +7471,6 @@
         "path": "frontend/src/pages/Projects.jsx",
         "route": "/Projects",
         "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/pages/ProjectsPage.tsx",
-        "route": "/ProjectsPage",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "frontend/src/components/Sidebar.js:6",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "frontend/src/App.js:52",
-        "route": "/projects",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "frontend/src/pages/Dashboard.js:6",
-        "route": "/projects",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "frontend/src/pages/ProjectsPage.js",
-        "route": "/ProjectsPage",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/api/v1/projects.py:13",
-        "route": "/projects",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/api/v1/projects.py:28",
-        "route": "/projects",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "model",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/models/projects.py",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/api/v1/projects.py",
-        "route": "/api/v1/projects",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/models/projects.py",
-        "route": "/models/projects",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIondistributedcloud",
-        "path": "backend/routes/aiBacklog.js:207",
-        "route": "/clouds/gcp/projects",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
       }
     ]
   },
@@ -7644,6 +7813,7 @@
     "canonicalKey": "retrospective",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation",
       "page"
     ],
@@ -7658,6 +7828,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Retrospectives.jsx:1",
+        "route": "/retrospectives",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIProjectManager",
@@ -7717,30 +7894,30 @@
   {
     "name": "Risks",
     "canonicalKey": "risk",
-    "aliases": [
-      "Risk"
-    ],
+    "aliases": [],
     "kinds": [
-      "api",
+      "ai-page",
       "navigation",
       "page"
     ],
     "routes": [
       "/Risks",
-      "/bulk/:featureKey/risk",
       "/risks"
     ],
     "sourceProjects": [
-      "AIDeepfakeDetectionPlatform",
-      "AIProductManagementCopilot",
       "AIProjectManager"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/browser-extension-platform",
-      "ai-ml-platforms-dev-tools/product-management-copilot",
-      "ai-ml-platforms-dev-tools/rag-platform"
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Risks.jsx:1",
+        "route": "/risks",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIProjectManager",
@@ -7768,27 +7945,32 @@
         "path": "frontend/src/pages/Risks.jsx",
         "route": "/Risks",
         "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Rollback Optimization",
+    "canonicalKey": "optimization rollback",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-optimizer?tool=rollback-optimization"
+    ],
+    "sourceProjects": [
+      "AINetworkascodeplatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
+    ],
+    "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "AIProductManagementCopilot",
-        "path": "src/components/Layout.js:20",
-        "route": "/risks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductManagementCopilot",
-        "path": "src/pages/Dashboard.js:18",
-        "route": "/risks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "backend/src/routes/extra.js:672",
-        "route": "/bulk/:featureKey/risk",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AIOptimizer.jsx:1",
+        "route": "/ai-optimizer?tool=rollback-optimization",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
       }
     ]
   },
@@ -8336,6 +8518,7 @@
     "canonicalKey": "standup",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation",
       "page"
     ],
@@ -8350,6 +8533,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Standups.jsx:1",
+        "route": "/standups",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIProjectManager",
@@ -8598,35 +8788,28 @@
     "canonicalKey": "task",
     "aliases": [],
     "kinds": [
-      "api",
+      "ai-page",
       "navigation",
       "page"
     ],
     "routes": [
       "/Tasks",
-      "/api/agents/tasks",
-      "/api/tasks",
-      "/api/workflow/tasks",
-      "/scheduler/tasks",
-      "/tasks",
-      "tasks"
+      "/tasks"
     ],
     "sourceProjects": [
-      "AIProductivityHub",
-      "AIProjectManager",
-      "AIobservability",
-      "AiBusinessAutomation",
-      "document_management",
-      "multi_agents"
+      "AIProjectManager"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/assistant",
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/browser-extension-platform",
-      "ai-ml-platforms-dev-tools/mcp-server",
-      "ai-ml-platforms-dev-tools/product-management-copilot"
+      "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Tasks.jsx:1",
+        "route": "/tasks",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIProjectManager",
@@ -8661,118 +8844,6 @@
         "path": "frontend/src/pages/Tasks.jsx",
         "route": "/Tasks",
         "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/components/Sidebar.js:39",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/App.js:134",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/components/Sidebar.js:39",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/pages/Tasks.js",
-        "route": "/Tasks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/setupRoutes.ts:106",
-        "route": "/api/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/setupRoutes.ts:107",
-        "route": "/api/workflow/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/scheduler/tasks.py",
-        "route": "/scheduler/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/server.js:441",
-        "route": "/api/agents/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/server.js:499",
-        "route": "/api/agents/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/src/routes/crud.js:197",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/src/routes/crud.js:208",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "multi_agents",
-        "path": "src/App.js:102",
-        "route": "tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "multi_agents",
-        "path": "src/components/Dashboard/Dashboard.js:16",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "multi_agents",
-        "path": "src/components/Layout/DashboardLayout.js:21",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiBusinessAutomation",
-        "path": "frontend/src/App.js:440",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiBusinessAutomation",
-        "path": "frontend/src/App.js:677",
-        "route": "/tasks",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -9001,10 +9072,12 @@
     "canonicalKey": "analyzer traffic",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "navigation"
     ],
     "routes": [
+      "/ai-traffic?tool=traffic-analyzer",
       "/traffic-analyzer"
     ],
     "sourceProjects": [
@@ -9014,6 +9087,13 @@
       "ai-ml-platforms-dev-tools/browser-extension-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/pages/AITrafficAnalyzer.jsx:1",
+        "route": "/ai-traffic?tool=traffic-analyzer",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
       {
         "kind": "api",
         "sourceProject": "AINetworkascodeplatform",
