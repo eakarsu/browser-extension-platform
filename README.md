@@ -3,7 +3,7 @@
 Industry: **AI/ML Platforms & Dev Tools**  
 Specialization: **Browser Extension Platform**
 
-This standalone application consolidates source-backed capabilities into 251 optimized features, including 21 visible data-backed or AI-enabled views. Its public demo SQLite database contains 0 sanitized source rows across 0 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 251 optimized features, including all 251 source-backed feature views. Its public demo SQLite database contains 0 sanitized source rows across 0 imported tables and 120 operational workflow records.
 
 ## Run locally
 
